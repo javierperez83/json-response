@@ -1,0 +1,31 @@
+{
+    "name": "tecnm/json-response",
+    "description": "A simple class that returns a properly formatted joson with HTT status",
+    "keywords":["Json","Response","",""],
+    "license":"MIT",
+    "type": "library",
+    "authors": [{
+        "name": "Javier",
+        "email": "javierperez@itsoeh.edu.mx",
+        "homepage": "http://isc.itsoeh.edu.mx"
+
+
+
+    }],
+
+
+    "require": {
+        "php": ">=8.1.10",
+         "filp/whoops": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tecnm\\ResponseClass\\":"src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    }
+}
